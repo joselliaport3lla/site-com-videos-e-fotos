@@ -9,21 +9,82 @@
 
 <body>
     <header>
-        <h1>Título da página</h1>
+        <h1>Minha Página com Vídeos e Fotos</h1>
     </header>
     <nav>
         <a href="#">Início</a>
-        <a href="#">Vídeos</a>
-        <a href="#">Fotos</a>
+        <a href="#videos">Vídeos</a>
+        <a href="#fotos">Fotos</a>
+        <a href="#curiosidades">Curiosidades</a>
     </nav>
     <main>
-        <h2>Vídeos</h2>
-        <iframe width="1280" height="720" src="https://www.youtube.com/embed/t0Q2otsqC4I"
-            title="Tom &amp; Jerry | Tom &amp; Jerry in Full Screen | Classic Cartoon Compilation | WB Kids"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen></iframe>
-        <h2>Fotos</h2>
-        <img src="" alt="">
+        <section class="video-section">
+            <h2>Vídeos</h2>
+            <div class="video-container">
+                <iframe width="1280" height="720" src="https://www.youtube.com/embed/5b5HJDa_Z2o"
+                    title="Tom &amp; Jerry em Português 🇧🇷 | Brasil | O melhor de Jerry Von Mousing | WB Kids"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="video-container">
+                <iframe width="1280" height="720" src="https://www.youtube.com/embed/gW6CiOtv_kw"
+                    title="Pica-Pau vai a um zoológico estranho | Pica-Pau em Português" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="video-container">
+                <iframe width="1280" height="720" src="https://www.youtube.com/embed/SvFxkrnVm4I"
+                    title="Scooby-Doo! em Português | Brasil | Piratas a Bordo | 10 Minutos Iniciais | WB Kids"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+        </section>
+        <section id="fotos">
+            <h2>Fotos</h2>
+            <div class="photo-gallery">
+                <div class="photo-item">
+                    <img src="Tom e Jerry.jpeg" alt="Personagens Tom e Jerry do desenho animado Tom & Jerry">
+                    <div class="photo-caption">Tom e Jerry</div>
+                </div>
+                <div class="photo-item">
+                    <img src="Pica-Pau.jpeg" alt="Personagem Pica-Pau do desenho animado Pica-Pau (Woody Woodpecker)">
+                    <div class="photo-caption">Pica-Pau</div>
+                </div>
+                <div class="photo-item">
+                    <img src="Scooby-Doo.jpeg"
+                        alt="Personagens Fred, Velma, Scooby-Doo, Shaggy (Salsinha) e Daphne do desenho animado Scooby-Doo">
+                    <div class="photo-caption">Scooby-Doo</div>
+                </div>
+            </div>
+        </section>
+        <section class="curiosidades">
+            <h2>Curiosidades</h2>
+            <div class="curiosidade">
+                <h3>Curiosidade sobre Tom & Jerry</h3>
+                <p>Originalmente, a ideia de Hanna e Barbera era que os rostos dos personagens humanos jamais
+                    aparecessem nas aventuras de Tom & Jerry.
+
+                    A razão disso é bem simples, eles queriam mostrar o ponto de vista dos próprios personagens. Assim,
+                    sempre teríamos a visão do cenário até o ponto em que os animais conseguiam enxergar.
+
+                    No entanto, em alguns episódios, os rostos dos donos de Tom aparecem.</p>
+            </div>
+            <div class="curiosidade">
+                <h3>Curiosidade sobre Pica-Pau</h3>
+                <p>Pica-Pau sempre foi um desenho animado muito popular, porém, mesmo com toda a fama, ele não conseguiu
+                    sustentar todos os gastos que o estúdio de Lantz tinha. Por isso, ainda na década de 70, tiveram que
+                    fechar as portas.</p>
+            </div>
+            <div class="curiosidade">
+                <h3>Curiosidade sobre Scooby-Doo</h3>
+                <p>A formação atual da Mistério S.A. foi pensada como uma banda chamada “The Mysteries Five”. Além de
+                    músicos, os personagens também seriam detetives capazes de resolver mistérios. A banda seria formada
+                    por Kelly, atual Daphne; Linda, atual Velma; W.W., atual Salsicha; Geoff e Mike, que juntos são o
+                    atual Fred; e Too Much, atual Scooby-Doo. Vale mencionar que Too Much seria um cachorro que tocava
+                    bateria.</p>
+            </div>
+        </section>
     </main>
 </body>

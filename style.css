@@ -1,0 +1,36 @@
+body { 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+nav {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+}
+
+main {
+    padding: 2em;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+}
+.video-container inframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
